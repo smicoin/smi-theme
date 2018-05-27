@@ -1,0 +1,204 @@
+/*
+Custom css
+*/
+
+/**
+ * Background Styles
+ */
+
+.bg-coinback-green{
+    background: #36bd5d;
+}
+
+.bg-black-opacity-5{
+    background: rgba(0,0,0, 0.5) !important;
+}
+
+.bg-gray-opacity-5{
+    background: rgba(34, 34, 34, 1);
+}
+
+.bg-gradient-silver{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+26,d7d7d7+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 26%, #d7d7d7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 26%,#d7d7d7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 26%,#d7d7d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 ); /* IE6-9 */
+}
+
+
+.btc{
+    background: url("../images/btc.png") no-repeat center center;
+    width: 230px;
+    height: 230px;
+}
+
+.bg-splash{
+    background: url('https://files.slack.com/files-pri/TAJBF4CPL-FAS2SDV7F/hiw_bg.png') no-repeat;
+    background-size: contain;
+}
+
+.bg-sharewealth{
+    background: url("../images/sharewealth.png") no-repeat center center;
+    background-size: contain;
+}
+
+.bg-howitworksvideo{
+    background: url("../images/howitworksvideo.png") no-repeat center center;
+    background-size: contain;
+}
+
+
+/**
+ * Text Styles
+ */
+.text-coinback-gold{
+    color: #f5b015;
+}
+
+
+.text-coinback-green{
+    color: #1d6a33;
+}
+
+
+.text-coinback-yellow{
+    color: #eaff00;
+}
+
+.text-coinback-gray{
+    color: #999999;
+}
+
+.text-size-24px{
+    font-size: 24px;
+}
+
+.text-size-18px{
+    font-size: 18px;
+}
+
+.l-s-3{
+    letter-spacing: 3px;
+}
+
+.font-weight-bolder{
+    font-weight: 900!important;
+}
+
+#btc-bonus{
+    padding: 12px 5px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 260px;
+}
+
+#how-it-works-steps ol{
+    padding: 0px;
+    list-style: none;
+}
+#how-it-works-steps ol li{
+    font-size: 18px;
+    margin: 40px 0;
+}
+
+.bg-black{
+    background: #000;
+}
+
+.m-t-n-100{
+    margin-top: -100px;
+}
+
+.btc-bg{
+    background: url("../images/moneybg.svg") repeat-x center center #202834;
+    background-position-y: 100px;
+}
+
+#dont-miss-out .box{
+    border: 3px dashed #0b2e13;
+}
+
+
+.padder-80{
+    padding: 80px;
+}
+
+.coinback-partners ul li{
+    margin-top: 12px;
+}
+
+.coinback-partners ul li img{
+    margin: 5px 10px;
+}
+
+.social-icons li{
+    padding-right: 10px;
+}
+
+.social-icons i{
+    font-size: 24px;
+    color: #999;
+}
+
+.fade:not(.show) {
+    opacity: 100;
+}
+
+.font-montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 25px;
+    font-size: 16px;
+    /*padding: 15px 0px;*/
+    font-weight: 100;
+}
+
+#invite .streamline{
+    position: relative;
+    border-color: rgba(120, 130, 140, 0.13);
+    margin: 0 10px;
+}
+
+#invite .sl-left{
+    margin-left: -15px;
+}
+
+#invite .sl-item{
+    border-color: rgba(120, 130, 140, 0.13);
+    position: relative;
+    padding-bottom: 15px;
+    clear: left;
+    padding-top: 30px;
+}
+
+#invite .streamline .sl-item:before, .streamline .sl-icon:before{
+    border-style: hidden;
+}
+
+#invite .sl-item:after {
+    content: "";
+    top: 70px;
+    bottom: -30px;
+    left: 4px;
+    position: absolute;
+    z-index: 1;
+    border-color: rgba(0,0,0, 0.2);
+    border-left-width: 2px;
+    border-right-width: 0;
+    border-style: dashed;
+}
+
+
+/* Icon Styling */
+.icon {
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}

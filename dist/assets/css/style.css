@@ -1,0 +1,41 @@
+/*
+Custom css
+*/
+
+/**
+ * Background Styles
+ */
+
+.bg-coinback-green{
+    background: #36bd5d;
+}
+
+.bg-black-opacity-5{
+    background: rgba(0,0,0, 0.5) !important;
+}
+
+.btc{
+    background-image: url("../images/btc.png");
+    width: 230px;
+    height: 230px;
+}
+
+
+/**
+ * Text Styles
+ */
+.text-coinback-gold{
+    color: #f5b015;
+}
+
+
+.text-coinback-green{
+    color: #1d6a33;
+}
+
+
+.text-coinback-yellow{
+    color: #eaff00;
+}
+
+
