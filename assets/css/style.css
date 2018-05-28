@@ -18,6 +18,10 @@ Custom css
     background: rgba(34, 34, 34, 1);
 }
 
+.bg-info-opacity-5{
+    background: rgba(57, 139, 247, 0.5);
+}
+
 .bg-gradient-silver{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+26,d7d7d7+100 */
     background: #ffffff; /* Old browsers */
@@ -162,7 +166,7 @@ p{
 
 #invite .streamline{
     position: relative;
-    border-color: rgba(120, 130, 140, 0.13);
+    border-color: rgba(57, 139, 247, 1);
     margin: 0 10px;
 }
 
@@ -171,7 +175,7 @@ p{
 }
 
 #invite .sl-item{
-    border-color: rgba(120, 130, 140, 0.13);
+    border-color: rgba(57, 139, 247, 1);
     position: relative;
     padding-bottom: 15px;
     clear: left;
@@ -189,7 +193,7 @@ p{
     left: 4px;
     position: absolute;
     z-index: 1;
-    border-color: rgba(0,0,0, 0.2);
+    border-color: rgba(57, 139, 247, 0.5);
     border-left-width: 2px;
     border-right-width: 0;
     border-style: dashed;
